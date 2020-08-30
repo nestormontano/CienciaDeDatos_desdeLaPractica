@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Ciencia de Datos desde la práctica</title>
+  <title>Chapter 5 Analisis exploratorio de Datos | Ciencia de Datos desde la práctica</title>
   <meta name="description" content="Un intento de crear una guia en español para aplicar análisis de datos" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Ciencia de Datos desde la práctica" />
+  <meta property="og:title" content="Chapter 5 Analisis exploratorio de Datos | Ciencia de Datos desde la práctica" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="nestormontano/CienciaDeDatos_desdeLaPractica-RMD" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Ciencia de Datos desde la práctica" />
+  <meta name="twitter:title" content="Chapter 5 Analisis exploratorio de Datos | Ciencia de Datos desde la práctica" />
   
   <meta name="twitter:description" content="Un intento de crear una guia en español para aplicar análisis de datos" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="intro.html"/>
+<link rel="prev" href="manipular.html"/>
+<link rel="next" href="stat-bases.html"/>
 <script src="libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -205,20 +205,38 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Ciencia de Datos desde la práctica</h1>
-<p class="author"><em>Néstor Montaño P.</em></p>
-<p class="date"><em>2020-08-30</em></p>
+<div id="explorar" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Analisis exploratorio de Datos</h1>
+<p>Manejo de datos</p>
+<div id="explorar-datos-numéricos" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Explorar datos numéricos</h2>
+<div id="medidas-de-tendencia-central" class="section level3" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> Medidas de tendencia Central</h3>
 </div>
-<div id="objetivo" class="section level1 unnumbered" number="">
-<h1>Objetivo</h1>
-<p>Hay muy poco material para aprender análisis de datos en español, además este material suele ser específico en un lenguaje o software; este libro intenta llenar ese faltante.</p>
-<p>El segundo objetivo de este libro es servir de guía para los que están cogiendo el Programa de Ciencia de Datos de la Sociedad Ecuatoriana de Estadística o los diferentes cursos que en ella imparto.</p>
-<div id="licencia" class="section level2 unnumbered" number="">
-<h2>Licencia</h2>
-<p><strong>Ciencia de Datos desde la práctica</strong> es creado por <strong>Néstor Montaño</strong>, bajo licencia [Creative Commons Attribution-NonCommercial 4.0 International License]
-(<a href="https://github.com/jennybc/happy-git-with-r" class="uri">https://github.com/jennybc/happy-git-with-r</a>).</p>
-<p>Puedes aportar en el <a href="https://github.com/nestormontano/CienciaDeDatos_desdeLaPractica-RMD">repositorio github</a></p>
+<div id="medidas-de-dispersión" class="section level3" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> Medidas de Dispersión</h3>
+</div>
+<div id="medidas-de-posición" class="section level3" number="5.1.3">
+<h3><span class="header-section-number">5.1.3</span> Medidas de Posición</h3>
+</div>
+<div id="tablas-de-frecuencias-e-histograma" class="section level3" number="5.1.4">
+<h3><span class="header-section-number">5.1.4</span> Tablas de Frecuencias e Histograma</h3>
+</div>
+</div>
+<div id="explorar-datos-categóricos" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Explorar datos categóricos</h2>
+<div id="tablas-de-frecuencias-e-histograma-1" class="section level3" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> Tablas de Frecuencias e Histograma</h3>
+</div>
+</div>
+<div id="explorar-datos-ordinales" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Explorar datos ordinales</h2>
+</div>
+<div id="explorar-datos-en-función-del-tiempo" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Explorar datos en función del tiempo</h2>
+</div>
+<div id="explorar-varias-variables" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Explorar varias variables</h2>
 
 </div>
 </div>
@@ -227,8 +245,8 @@
           </div>
         </div>
       </div>
-
-<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="manipular.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="stat-bases.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -259,7 +277,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/05_Explorar_numericos.Rmd",
 "text": "Edit"
 },
 "history": {
